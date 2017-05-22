@@ -9,9 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
         <title>Cadastro</title>
     </head>
     <body>
+        <div id="conteiner">
+            <a href="indexJsp.jsp"><img src="imagens/.jpg" height="100" width="755"></a>
         <h1>Cadastro</h1>
         <form action="ServM" method="POST">
 
@@ -35,5 +38,9 @@
         <form action="result.jsp">
             <input type="submit" value="Resultados" />
         </form>
+        <footer><br><br>Desenvolveldores: José Hilton, Lucas Candeia, Julio Cesar, Luis Antônio e Dioclecio Amoroso.</footer>
+
+        </div>
+        
     </body>
 </html>
